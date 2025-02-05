@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>umesh's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+
+    <header>
+                
+        <nav class="navbar">
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a</li>
+                    <li><a href="#">Contact Me</a></li>    
+                    <li><a href="#">Projects</a></li>                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    
+    <main>
+        
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">umesh</span>
+                <div>and I am passionate </div> 
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+                <img src="umesh2.png">
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Video Editor', 'Student'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>

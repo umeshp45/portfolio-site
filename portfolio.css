@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: white;
+    background: linear-gradient(#ECEFFE, #CED6FB);
     color: black;
     font-family: 'Poppins', sans-serif;
 }
@@ -72,5 +72,64 @@ nav ul li a:hover {
 #element {
     color: rgb(147, 73, 216);
 }
+
+hr {
+    border: 2px solid rgb(147, 73, 216);
+}
+
+.secondsection h1{
+    text-align: center;
+    margin: 75px;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.card {
+  width: 500px;
+  margin: 50px 50px;  
+}
+
+.card img{
+    width: 100%;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+  /* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+    text-align: center;
+    background-color: rgb(118, 113, 222);
+}
+
+.secondsection h4 a{
+    text-decoration: none;
+    color: black;
+}
+
+.container:hover {
+    font-size: 1.05rem;
+}
+
+.project-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+
+
+
 
 
